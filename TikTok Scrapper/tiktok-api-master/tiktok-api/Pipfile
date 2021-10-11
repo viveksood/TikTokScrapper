@@ -1,0 +1,18 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+
+[packages]
+requests = {extras = ["socks"],version = "*"}
+psycopg2-binary = "*"
+lxml = "*"
+urllib3 = "*"
+tiktokapi = "*"
+playwright = "*"
+scrapy = "*"
+
+[requires]
+python_version = "3.7"
